@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "390310777894",
+    "firebase_url": "https://statusapp-student-5d71c.firebaseio.com",
+    "project_id": "statusapp-student-5d71c",
+    "storage_bucket": "statusapp-student-5d71c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390310777894:android:508a5c4de90630b2bd82e7",
+        "android_client_info": {
+          "package_name": "edu.monash.fit2081.statusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390310777894-1bkgqvu26vn1ooomt8krbm2rk7hqvm0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.monash.fit2081.statusapp",
+            "certificate_hash": "e6101c7b3e9ed1bf59aa7bd55a35edef18d5e302"
+          }
+        },
+        {
+          "client_id": "390310777894-vffk5133lss0jukq9rg105hbo3cieeot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqEvqQU9pSXlVSVEIcZYjxmhwN547qwrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390310777894-vffk5133lss0jukq9rg105hbo3cieeot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
