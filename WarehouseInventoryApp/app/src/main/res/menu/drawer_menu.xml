@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add"
+        android:title="Add Item" />
+    <item
+        android:id="@+id/clear"
+        android:title="Clear Fields" />
+    <item
+        android:id="@+id/list"
+        android:title="List All Items" />
+    <item
+        android:id="@+id/delete"
+        android:title="Delete All Items" />
+</menu>

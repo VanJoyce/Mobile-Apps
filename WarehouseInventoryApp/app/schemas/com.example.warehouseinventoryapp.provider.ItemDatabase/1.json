@@ -1,0 +1,64 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "efd8de06cd079769a4af9c511aaebce6",
+    "entities": [
+      {
+        "tableName": "items",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`itemID` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `itemName` TEXT, `itemQuantity` INTEGER NOT NULL, `itemCost` REAL NOT NULL, `itemDescription` TEXT, `itemFrozen` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "itemID",
+            "columnName": "itemID",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "itemName",
+            "columnName": "itemName",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "itemQuantity",
+            "columnName": "itemQuantity",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "itemCost",
+            "columnName": "itemCost",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "itemDescription",
+            "columnName": "itemDescription",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "itemFrozen",
+            "columnName": "itemFrozen",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "itemID"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'efd8de06cd079769a4af9c511aaebce6')"
+    ]
+  }
+}
